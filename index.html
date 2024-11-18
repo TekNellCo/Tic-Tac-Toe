@@ -3,34 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.csss" />
+    <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js"></script>
     <title>Tic Tac Toe</title>
   </head>
   <body>
     <div class="headerContainer">
-      <div class="playerContainer">
+      <div class="playerContainer container">
         <h1>Player 1</h1>
         <form>
           <input placeholder="Player 1 name" type="text" />
         </form>
       </div>
-      <div class="middleContainer">
+      <div class="middleContainer container">
         <div class="titleContainer">
           <h1 class="title">Tic Tac Toe</h1>
         </div>
         <div class="buttonContainer">
-          <button class="newGame">New Gane</button>
+          <button class="newGame">New Game</button>
           <button class="reset">Reset</button>
         </div>
       </div>
-      <div class="playerContainer">
+      <div class="playerContainer container">
         <h1>Player 1</h1>
         <form>
           <input placeholder="Player 2 name" type="text" />
         </form>
       </div>
     </div>
-    <div class="gameBoard"></div>
+    <div class="gameBoard">
+      <div class="grid one" data-row="a" data-column="0"></div>
+      <div class="grid two" data-row="a" data-column="1"></div>
+      <div class="grid three" data-row="a" data-column="2"></div>
+      <div class="grid four" data-row="b" data-column="0"></div>
+      <div class="grid five" data-row="b" data-column="1"></div>
+      <div class="grid six" data-row="b" data-column="2"></div>
+      <div class="grid seven" data-row="c" data-column="0"></div>
+      <div class="grid eight" data-row="c" data-column="1"></div>
+      <div class="grid nine" data-row="c" data-column="2"></div>
+    </div>
   </body>
 </html>
