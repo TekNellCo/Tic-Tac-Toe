@@ -1,0 +1,79 @@
+<mxfile host="65bd71144e">
+    <diagram id="507BoF6uj1ERfaKoBCgo" name="Page-1">
+        <mxGraphModel dx="1856" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="factory function that creates objects from&lt;br&gt;(name,dataset object, marker)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="260" width="260" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Player 1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="275" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Player 2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="275" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="input 1&lt;br&gt;contains&amp;nbsp;&lt;br&gt;player1 &amp;amp;dataset value =1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="10" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="input 2&lt;br&gt;contains&amp;nbsp;&lt;br&gt;player2 &amp;amp;dataset value =2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="10" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="17" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="event listener that pushs&lt;br&gt;if dataset = 1&lt;br&gt;let player 1 = factory(name, dataset value, marker)&lt;br&gt;if dataset =2&lt;br&gt;let player 2 = factory(name,dataset value,marker)&lt;br&gt;&amp;nbsp;(name and dataset value &amp;amp; marker to function" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="10" width="310" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="checks is player1 &amp;amp;player2 exist&lt;br&gt;creates game board by looping through array and applies to grid&lt;br&gt;adds event listeners for each square" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="400" width="420" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.786;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="29" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="29" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;div&gt;let object {&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;a:[&quot;o&quot;,&quot;o&quot;,&quot;o&quot;]&lt;/div&gt;&lt;div&gt;b:[&quot;o&quot;,&quot;o&quot;,&quot;o&quot;]&lt;/div&gt;&lt;div&gt;c:[&quot;o&quot;,&quot;o&quot;,&quot;o&quot;]&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;object.a[0] = &quot;x&quot;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="530" width="210" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="31" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="let current player marker = &quot;X&quot;&lt;br&gt;onclick &amp;gt; player1.mark / current player &quot;O&quot;&lt;br&gt;onclick &amp;gt; player 2. mark/ current player&amp;nbsp; &quot;X&quot;&lt;br&gt;&lt;br&gt;let row = data.row&lt;br&gt;let column = data.column&lt;br&gt;&lt;br&gt;object.row[column] = current player marker&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="500" width="310" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="33" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if or switch statement:&lt;/div&gt;&lt;div&gt;a[0] === a[1] === a[2]&lt;/div&gt;&lt;div&gt;a[0] === b[1] === c[2]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;a[0] === b[0] === c[0]&lt;/div&gt;&lt;div&gt;a[1] === b[1] === c[1]&lt;/div&gt;&lt;div&gt;a[2] === b[2] === c[2]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;b[0] === b[1] === b[2]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;c[0] === c[1] === c[2]&lt;/div&gt;&lt;div&gt;c[0] === b[1] === a[2]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if any are true run winning function with winning value&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="750" width="330" height="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="winning function that intakes winning value&lt;br&gt;if &quot;X&quot; player 1 wins&amp;nbsp;&lt;br&gt;if &quot;O&quot; player 2 wins&lt;br&gt;exit button clears object&lt;br&gt;restart button clears players" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="900" width="270" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="let player1;&lt;br&gt;let player 2;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="90" width="140" height="140" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
