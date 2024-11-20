@@ -9,22 +9,22 @@
   </head>
   <body>
     <div class="winningBanner">
-      <h1 class="winner">Nelson wins!</h1>
-      <button class="newPlayers">New Players</button
-      ><button class="newGame">New Game</button>
+      <h1 class="winner">You shouldnt see this</h1>
+      <button class="newGame">New Game</button>
+      <button class="newPlayers">New Players</button>
     </div>
     <div class="headerContainer">
       <div class="playerContainer container">
-        <h1>Player 1</h1>
+        <h1 class="playerOneHeader">Player 1</h1>
         <form>
           <input
-            value="Nelson"
+            required
             class="input"
             placeholder="Player 1 name"
             data-player="1"
             type="text"
           />
-          <button class="playerOneSubmit submit">Submit</button>
+          <button data-player="1" class="playerOneSubmit submit">Submit</button>
         </form>
       </div>
       <div class="middleContainer container">
@@ -33,20 +33,20 @@
         </div>
         <div class="buttonContainer">
           <button class="titleBtn newGame">New Game</button>
-          <button class="titleBtn reset">Reset</button>
+          <button class="titleBtn reset newPlayers">New Players</button>
         </div>
       </div>
       <div class="playerContainer container">
-        <h1>Player 2</h1>
+        <h1 class="playerTwoHeader">Player 2</h1>
         <form>
           <input
-            value="Sarah"
+            required
             class="input"
             placeholder="Player 2 name"
             data-player="2"
             type="text"
           />
-          <button class="playerTwoSubmit submit">Submit</button>
+          <button data-player="2" class="playerTwoSubmit submit">Submit</button>
         </form>
       </div>
     </div>
