@@ -94,11 +94,9 @@ function gridMark(player, grid) {
 
 ///checks is the object array spot is already filled with another players marker,if not it marks it
 function gameLogic(row, column, marker) {
-  if (object[row][column] === 'X' || object[row][column] === 'O') {
-  } else {
-    object[row][column] = marker;
-    checkWinner(); ///checks if there is a winnner after each turn
-  }
+  if (object[row][column] === 'X' || object[row][column] === 'O') return;
+  else object[row][column] = marker;
+  checkWinner(); ///checks if there is a winnner after each turn
 }
 
 ///checks for winning conditions each turn
@@ -206,3 +204,12 @@ document.querySelectorAll('.newPlayers').forEach((button) => {
     newGame();
   });
 });
+
+
+
+function sumRange(n){
+  if(x ===1)
+    return 1;
+  else 
+    return 6 + sumRange(n - 1)
+}
